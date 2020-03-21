@@ -471,3 +471,42 @@
   -webkit-animation: rodal-door-leave both;
   animation: rodal-door-leave both;
 }
+
+/* -- roll -- */
+@keyframes rodal-roll-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rodal-roll-enter {
+  -webkit-animation: rodal-roll-enter both;
+  animation: rodal-roll-enter both;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+@keyframes rodal-roll-leave {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+.rodal-roll-leave {
+  -webkit-animation: rodal-roll-leave both;
+  animation: rodal-roll-leave both;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+

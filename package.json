@@ -46,10 +46,13 @@
     "react-modal",
     "react-component"
   ],
-  "author": "neverland",
+  "contributors": [
+    "neverland",
+    "jstevick@mvrk.co"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenjiahan/rodal/issues"
+    "url": "https://github.com/MVRK-HQ/rodal.git"
   },
-  "homepage": "https://github.com/chenjiahan/rodal#readme"
+  "homepage": "https://github.com/MVRK-HQ/rodal.git"
 }
